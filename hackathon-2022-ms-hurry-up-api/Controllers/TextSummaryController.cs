@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using hackathon_2022_ms_hurry_up_api.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace hackathon_2022_ms_hurry_up_api.Controllers
 {
@@ -7,23 +8,17 @@ namespace hackathon_2022_ms_hurry_up_api.Controllers
     public class TextSummaryController : ControllerBase
     {
         
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<TextSummaryController> _logger;
 
-        public TextSummaryController(ILogger<WeatherForecastController> logger)
+        public TextSummaryController(ILogger<TextSummaryController> logger)
         {
             _logger = logger;
         }
 
         [HttpGet("Summarize")]
-        public IEnumerable<string> Get()
+        public async Task<string> Get(string textInput)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-                {
-                    Date = DateTime.Now.AddDays(index),
-                    TemperatureC = Random.Shared.Next(-20, 55),
-                    Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-                })
-                .ToArray();
+            return await SummarizeService.TextSummarizationExample(textInput);
         }
     }
 }
