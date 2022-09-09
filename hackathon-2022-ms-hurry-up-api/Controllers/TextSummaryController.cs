@@ -16,10 +16,9 @@ namespace hackathon_2022_ms_hurry_up_api.Controllers
         }
 
         [HttpGet("Summarize")]
-        public async Task<IActionResult> Get(string textInput)
+        public async Task<string> Get(string textInput)
         {
-            var summarizedText = await SummarizeService.TextSummarizationExample(textInput);
-            return Ok(summarizedText);
+            return await SummarizeService.TextSummarizationExample(textInput);
         }
     }
 }
