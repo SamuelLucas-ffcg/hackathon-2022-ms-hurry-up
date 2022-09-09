@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Intervjukod\\Ffcg\\hackathon-2022-ms-hurry-up\\hackathon-2022-ms-hurry-up-console\\hackathon-2022-ms-hurry-up-console.csproj": {}
+  },
+  "projects": {
+    "C:\\Intervjukod\\Ffcg\\hackathon-2022-ms-hurry-up\\hackathon-2022-ms-hurry-up-console\\hackathon-2022-ms-hurry-up-console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Intervjukod\\Ffcg\\hackathon-2022-ms-hurry-up\\hackathon-2022-ms-hurry-up-console\\hackathon-2022-ms-hurry-up-console.csproj",
+        "projectName": "hackathon-2022-ms-hurry-up-console",
+        "projectPath": "C:\\Intervjukod\\Ffcg\\hackathon-2022-ms-hurry-up\\hackathon-2022-ms-hurry-up-console\\hackathon-2022-ms-hurry-up-console.csproj",
+        "packagesPath": "C:\\Users\\samuel.lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Intervjukod\\Ffcg\\hackathon-2022-ms-hurry-up\\hackathon-2022-ms-hurry-up-console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samuel.lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.AI.TextAnalytics": {
+              "target": "Package",
+              "version": "[5.2.0-beta.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

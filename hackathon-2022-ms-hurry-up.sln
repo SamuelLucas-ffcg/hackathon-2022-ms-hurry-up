@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackathon-2022-ms-hurry-up", "hackathon-2022-ms-hurry-up\hackathon-2022-ms-hurry-up.csproj", "{37C7C904-AE1F-48B8-9FC0-661F29D73DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackathon-2022-ms-hurry-up-api", "hackathon-2022-ms-hurry-up-api\hackathon-2022-ms-hurry-up-api.csproj", "{E54F860C-8805-4EFE-8561-71637D50D850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackathon-2022-ms-hurry-up-console", "hackathon-2022-ms-hurry-up-console\hackathon-2022-ms-hurry-up-console.csproj", "{E39769CB-201A-4E7A-87C0-C55AB8B1DBA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37C7C904-AE1F-48B8-9FC0-661F29D73DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C7C904-AE1F-48B8-9FC0-661F29D73DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C7C904-AE1F-48B8-9FC0-661F29D73DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C7C904-AE1F-48B8-9FC0-661F29D73DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54F860C-8805-4EFE-8561-71637D50D850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54F860C-8805-4EFE-8561-71637D50D850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54F860C-8805-4EFE-8561-71637D50D850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54F860C-8805-4EFE-8561-71637D50D850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39769CB-201A-4E7A-87C0-C55AB8B1DBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39769CB-201A-4E7A-87C0-C55AB8B1DBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39769CB-201A-4E7A-87C0-C55AB8B1DBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39769CB-201A-4E7A-87C0-C55AB8B1DBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1689B41-2B33-46C0-8BA0-6F38BEA76280}
+	EndGlobalSection
+EndGlobal
