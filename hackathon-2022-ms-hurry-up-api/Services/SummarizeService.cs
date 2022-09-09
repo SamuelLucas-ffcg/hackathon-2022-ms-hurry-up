@@ -28,7 +28,7 @@ public static class SummarizeService
     
         var actions = new TextAnalyticsActions()
         {
-            ExtractSummaryActions = new List<ExtractSummaryAction>() { new () }
+            ExtractSummaryActions = new List<ExtractSummaryAction> { new () {MaxSentenceCount = 4} }
         };
     
         // Start analysis process.
@@ -76,7 +76,7 @@ public static class SummarizeService
                     {
                         Console.WriteLine($"  Sentence: {sentence.Text}");
                         Console.WriteLine();
-                        result += sentence.Text;
+                        result += sentence.Text + "\n";
                     }
                 }
             }
